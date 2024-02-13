@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e; /* Dark purple */
+    color: #fff; /* White text color */
+}
+
+.header {
+    background-color: #303c6c; /* Dark blue */
+    padding: 20px;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    color: #fff; /* White text color */
+    letter-spacing: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.about-me-box {
+    background-color: #303c6c; /* Same as header color */
+    color: #fff; /* White text color */
+    padding: 5px;
+    width: 150px;
+    border-radius: 90px; /* Rounded corners */
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+
+.about-me-box p {
+    margin: 0;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-style: italic;
+    text-align: center;
+}
+
+.about-me-t1 p{
+    position: absolute;
+    top: 165px; /* Adjust as needed */
+    left: 320px;
+    font-size: 24px;
+
+    
+}
+.about-me-t2 p{
+    position: absolute;
+    top: 190px; /* Adjust as needed */
+    left: 320px;
+    font-size: 24px;
+
+}
+.about-me-t3 p{
+    position: absolute;
+    top: 215px; /* Adjust as needed */
+    left: 320px;
+    font-size: 24px;
+
+}
+.profile-picture {
+    max-width: 20%;
+    border-radius: 20px; /* Rounded corners */
+    margin-top: 215px;
+    margin-left: 300px; 
+    height: auto;
+}
+.about-me-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+.text p{
+    margin-left: 20px;
+    margin-top: 195px;
+    flex: 20; /* Take up remaining space */
+    font-size: 24px;
+    margin-right: 55%;
+}
+
+.skills-box {
+    background-color: #303c6c; /* Same as header color */
+    color: #fff; /* White text color */
+    padding: 5px;
+    width: 120px;
+    border-radius: 90px; /* Rounded corners */
+    position: absolute;
+    top: 700px;
+    left: 875px;
+}
+
+.skills-box p {
+    margin: 0;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.skills-img{
+    max-width: 20%;
+    position: absolute;
+    top: 730px;
+    left: 800px;
+
+}
+
+.skills-text{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 215px;
+    font-size: 24px;
+    margin-right: 50%;
+    list-style-type: disc;
+    
+}
+
+.work-box {
+    background-color: #303c6c; /* Same as header color */
+    color: #fff; /* White text color */
+    padding: 5px;
+    width: 120px;
+    border-radius: 90px; /* Rounded corners */
+    position: absolute;
+    top: 1050px;
+    left: 300px;
+}
+
+.work-box p {
+    margin: 0;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-style: italic;
+    text-align: center;
+}
+
+.work-text{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 600px;
+    font-size: 24px;
+    margin-right: 20%;
+    list-style-type: disc;
+    
+    
+}
+
+.work-img{
+    max-width: 20%;
+    position: absolute;
+    top: 1100px;
+    left: 250px;
+
+}
+
+.why p{
+    position: absolute;
+    font-size: 28px;
+    top: 1400px;
+    margin-right: 25%;
+    left: 300px;
+    text-align: center;
+    font-style: italic;
+}
